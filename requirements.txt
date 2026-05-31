@@ -1,0 +1,33 @@
+# Core ML & detection
+ultralytics>=8.2.0
+torch>=2.2.1
+torchvision>=0.17.1
+
+# Image processing
+opencv-python>=4.9.0
+numpy>=1.26.0
+Pillow>=10.3.0
+
+# Thermal camera (FLIR)
+PySpin  # or: simple_pyspin
+
+# Calibration & geometry
+scipy>=1.13.0
+
+# Tracking
+lapx>=0.5.5          # ByteTrack dependency
+supervision>=0.20.0  # optional, clean tracking/annotation API
+
+# Streaming / UI
+streamlit>=1.35.0
+
+# Async & queues
+asyncio-throttle>=1.0.2
+
+# Logging & config
+pydantic>=2.7.0
+PyYAML>=6.0.1
+loguru>=0.7.2
+
+# Benchmarking
+psutil>=5.9.0
