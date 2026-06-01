@@ -5,11 +5,11 @@ import time
 import matplotlib.pyplot as plt
 import numpy as np
 
-model = YOLO("yolo26n.pt")
+model = YOLO("runs/detect/runs/thermal/llvip_finetune/weights/best.pt")
 t0 = time.time()
 
-img0 = cv2.imread("LLVIP/visible/train/010003.jpg")
-img1 = cv2.imread("LLVIP/infrared/train/010003.jpg")
+img0 = cv2.imread("LLVIP/visible/test/200122.jpg")
+img1 = cv2.imread("LLVIP/infrared/test/200122.jpg")
 
 process_size = (640, 640)
 img0 = cv2.resize(img0, process_size)

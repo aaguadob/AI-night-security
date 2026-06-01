@@ -132,7 +132,7 @@ def main():
     # training args
     parser.add_argument("--model",    default="yolo26n.pt",
                         help="Base weights to fine-tune from")
-    parser.add_argument("--data",     default="dataset/llvip_thermal.yaml",
+    parser.add_argument("--data",     default="dataset/llvip_mixed.yaml",
                         help="Path to the YAML produced by llvip_dataloader.py")
     parser.add_argument("--epochs",   type=int,   default=50)
     parser.add_argument("--imgsz",    type=int,   default=640)
